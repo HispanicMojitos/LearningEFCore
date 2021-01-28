@@ -1,0 +1,9 @@
+C:\Users\a.leruth\Desktop\CleanArchitectureTest\CleanArchitectureTest.Core\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Core.deps.json
+C:\Users\a.leruth\Desktop\CleanArchitectureTest\CleanArchitectureTest.Core\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Core.dll
+C:\Users\a.leruth\Desktop\CleanArchitectureTest\CleanArchitectureTest.Core\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Core.pdb
+C:\Users\a.leruth\Desktop\CleanArchitectureTest\CleanArchitectureTest.Core\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Core.csprojAssemblyReference.cache
+C:\Users\a.leruth\Desktop\CleanArchitectureTest\CleanArchitectureTest.Core\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Core.AssemblyInfoInputs.cache
+C:\Users\a.leruth\Desktop\CleanArchitectureTest\CleanArchitectureTest.Core\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Core.AssemblyInfo.cs
+C:\Users\a.leruth\Desktop\CleanArchitectureTest\CleanArchitectureTest.Core\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Core.csproj.CoreCompileInputs.cache
+C:\Users\a.leruth\Desktop\CleanArchitectureTest\CleanArchitectureTest.Core\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Core.dll
+C:\Users\a.leruth\Desktop\CleanArchitectureTest\CleanArchitectureTest.Core\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Core.pdb
