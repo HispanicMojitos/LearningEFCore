@@ -1530,6 +1530,19 @@
         "runtime": {
           "bin/placeholder/CleanArchitectureTest.Core.dll": {}
         }
+      },
+      "CleanArchitectureTest.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArchitectureTest.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitectureTest.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitectureTest.Data.dll": {}
+        }
       }
     }
   },
@@ -5803,11 +5816,17 @@
       "type": "project",
       "path": "../CleanArchitectureTest.Core/CleanArchitectureTest.Core.csproj",
       "msbuildProject": "../CleanArchitectureTest.Core/CleanArchitectureTest.Core.csproj"
+    },
+    "CleanArchitectureTest.Data/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitectureTest.Data/CleanArchitectureTest.Data.csproj",
+      "msbuildProject": "../CleanArchitectureTest.Data/CleanArchitectureTest.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "CleanArchitectureTest.Core >= 1.0.0",
+      "CleanArchitectureTest.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.2",
@@ -5820,9 +5839,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Andews.Data\\CleanArchitectureTest.Data.csproj",
-      "projectName": "CleanArchitectureTest.Data",
-      "projectPath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Andews.Data\\CleanArchitectureTest.Data.csproj",
+      "projectUniqueName": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Andews.Data\\CleanArchitectureTest.Data.Sql.csproj",
+      "projectName": "CleanArchitectureTest.Data.Sql",
+      "projectPath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Andews.Data\\CleanArchitectureTest.Data.Sql.csproj",
       "packagesPath": "C:\\Users\\a.leruth\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Andews.Data\\obj\\",
       "projectStyle": "PackageReference",
@@ -5843,6 +5862,9 @@
           "projectReferences": {
             "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Core\\CleanArchitectureTest.Core.csproj": {
               "projectPath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Core\\CleanArchitectureTest.Core.csproj"
+            },
+            "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Data\\CleanArchitectureTest.Data.csproj": {
+              "projectPath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Data\\CleanArchitectureTest.Data.csproj"
             }
           }
         }

@@ -7,11 +7,11 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace CleanArchitectureTest.Data.Migrations
+namespace CleanArchitectureTest.Data.Sql.Migrations
 {
     [DbContext(typeof(StudentContext))]
-    [Migration("20210128110056_InitialMigration")]
-    partial class InitialMigration
+    [Migration("20210129125341_SchoolDB")]
+    partial class SchoolDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace CleanArchitectureTest.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.2");
 
-            modelBuilder.Entity("CleanArchitectureTest.Data.Entitites.Student", b =>
+            modelBuilder.Entity("CleanArchitectureTest.Core.Models.Student", b =>
                 {
                     b.Property<int>("StudentID")
                         .ValueGeneratedOnAdd()
@@ -29,16 +29,21 @@ namespace CleanArchitectureTest.Data.Migrations
                         .UseIdentityColumn();
 
                     b.Property<DateTime>("BirthDate")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("Date")
+                        .HasColumnName("BirthDate");
 
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("FirstName");
 
                     b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("LastName");
 
                     b.HasKey("StudentID");
 

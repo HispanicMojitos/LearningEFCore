@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v3.1": {
       "CleanArchitectureTest.Business/1.0.0": {
+        "dependencies": {
+          "CleanArchitectureTest.Core": "1.0.0",
+          "CleanArchitectureTest.Data": "1.0.0"
+        },
         "runtime": {
           "CleanArchitectureTest.Business.dll": {}
+        }
+      },
+      "CleanArchitectureTest.Core/1.0.0": {
+        "runtime": {
+          "CleanArchitectureTest.Core.dll": {}
+        }
+      },
+      "CleanArchitectureTest.Data/1.0.0": {
+        "dependencies": {
+          "CleanArchitectureTest.Core": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchitectureTest.Data.dll": {}
         }
       }
     }
   },
   "libraries": {
     "CleanArchitectureTest.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitectureTest.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitectureTest.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

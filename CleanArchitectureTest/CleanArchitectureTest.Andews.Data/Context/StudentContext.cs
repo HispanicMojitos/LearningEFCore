@@ -2,7 +2,8 @@
 // Copyright (c) Wavenet. All rights reserved.
 // </copyright>
 
-using CleanArchitectureTest.Data.Entitites;
+using CleanArchitectureTest.Core.Models;
+using CleanArchitectureTest.Data.Sql.Configurations;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,6 +19,11 @@ namespace CleanArchitectureTest.Data.Context
         public StudentContext(DbContextOptions<StudentContext> options)
             : base(options)
         {
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new StudentConfiguration());
         }
         public DbSet<Student> Students { get; set; }
     }

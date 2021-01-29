@@ -1,4 +1,8 @@
+using CleanArchitectureTest.Business.Interfaces;
+using CleanArchitectureTest.Business.Services;
+using CleanArchitectureTest.Data;
 using CleanArchitectureTest.Data.Context;
+using CleanArchitectureTest.Data.Sql.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -27,6 +31,8 @@ namespace CleanArchitectureTest.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<StudentContext>(options => options.UseSqlServer(Configuration.GetConnectionString("myDb")));
+            services.AddScoped<IStudentRepository, StudentRepository>();
+            services.AddScoped<IStudentService, StudentService>();
             services.AddControllers();
         }
 

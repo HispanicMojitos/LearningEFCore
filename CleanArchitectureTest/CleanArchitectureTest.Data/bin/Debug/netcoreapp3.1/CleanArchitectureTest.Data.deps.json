@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CleanArchitectureTest.Data/1.0.0": {
+        "dependencies": {
+          "CleanArchitectureTest.Core": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchitectureTest.Data.dll": {}
+        }
+      },
+      "CleanArchitectureTest.Core/1.0.0": {
+        "runtime": {
+          "CleanArchitectureTest.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CleanArchitectureTest.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitectureTest.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

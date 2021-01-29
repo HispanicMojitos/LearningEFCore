@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Domains\" />
+    <ProjectReference Include="..\CleanArchitectureTest.Core\CleanArchitectureTest.Core.csproj" />
+    <ProjectReference Include="..\CleanArchitectureTest.Data\CleanArchitectureTest.Data.csproj" />
   </ItemGroup>
 
 </Project>

@@ -5,11 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CleanArchitectureTest.Andews.Data\CleanArchitectureTest.Data.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\CleanArchitectureTest.Andews.Data\CleanArchitectureTest.Data.Sql.csproj" />
+    <ProjectReference Include="..\CleanArchitectureTest.Data\CleanArchitectureTest.Data.csproj" />
+    <ProjectReference Include="..\Domains\CleanArchitectureTest.Business.csproj" />
   </ItemGroup>
 
   <ItemGroup>

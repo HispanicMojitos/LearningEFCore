@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1Ky5By2KiOABjq3Nwrn9jvjoldEA4neDuxDjP1wchnLdmxHSJB0qGM8mnwEaMTb+vuOjWoVW8Q/W6ayFjLnF0g==",
+  "dgSpecHash": "YzMLKkCpf8Q5fz4vxMuFpSM5D2+BRHtckLZSsv9Nvo+N9rg0WqNoVfsLhx7lcKl9KcGvVnfgb0ubtTzLwkNBZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Andews.Data\\CleanArchitectureTest.Data.csproj",
+  "projectFilePath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Andews.Data\\CleanArchitectureTest.Data.Sql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\a.leruth\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\a.leruth\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

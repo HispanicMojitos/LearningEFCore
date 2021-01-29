@@ -24,7 +24,9 @@
     ".NETCoreApp,Version=v3.1": {
       "CleanArchitectureTest.API/1.0.0": {
         "dependencies": {
+          "CleanArchitectureTest.Business": "1.0.0",
           "CleanArchitectureTest.Data": "1.0.0",
+          "CleanArchitectureTest.Data.Sql": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.2",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -1383,6 +1385,18 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "CleanArchitectureTest.Business/1.0.0": {
+        "dependencies": {
+          "CleanArchitectureTest.Core": "1.0.0",
+          "CleanArchitectureTest.Data": "1.0.0"
+        },
+        "runtime": {
+          "CleanArchitectureTest.Business.dll": {}
+        },
+        "compile": {
+          "CleanArchitectureTest.Business.dll": {}
+        }
+      },
       "CleanArchitectureTest.Core/1.0.0": {
         "runtime": {
           "CleanArchitectureTest.Core.dll": {}
@@ -1393,15 +1407,27 @@
       },
       "CleanArchitectureTest.Data/1.0.0": {
         "dependencies": {
-          "CleanArchitectureTest.Core": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.2"
+          "CleanArchitectureTest.Core": "1.0.0"
         },
         "runtime": {
           "CleanArchitectureTest.Data.dll": {}
         },
         "compile": {
           "CleanArchitectureTest.Data.dll": {}
+        }
+      },
+      "CleanArchitectureTest.Data.Sql/1.0.0": {
+        "dependencies": {
+          "CleanArchitectureTest.Core": "1.0.0",
+          "CleanArchitectureTest.Data": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.2"
+        },
+        "runtime": {
+          "CleanArchitectureTest.Data.Sql.dll": {}
+        },
+        "compile": {
+          "CleanArchitectureTest.Data.Sql.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3704,12 +3730,22 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
+    "CleanArchitectureTest.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CleanArchitectureTest.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "CleanArchitectureTest.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CleanArchitectureTest.Data.Sql/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

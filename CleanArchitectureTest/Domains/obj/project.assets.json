@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "CleanArchitectureTest.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CleanArchitectureTest.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitectureTest.Core.dll": {}
+        }
+      },
+      "CleanArchitectureTest.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CleanArchitectureTest.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchitectureTest.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchitectureTest.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CleanArchitectureTest.Core/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitectureTest.Core/CleanArchitectureTest.Core.csproj",
+      "msbuildProject": "../CleanArchitectureTest.Core/CleanArchitectureTest.Core.csproj"
+    },
+    "CleanArchitectureTest.Data/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchitectureTest.Data/CleanArchitectureTest.Data.csproj",
+      "msbuildProject": "../CleanArchitectureTest.Data/CleanArchitectureTest.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "CleanArchitectureTest.Core >= 1.0.0",
+      "CleanArchitectureTest.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\a.leruth\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Core\\CleanArchitectureTest.Core.csproj": {
+              "projectPath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Core\\CleanArchitectureTest.Core.csproj"
+            },
+            "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Data\\CleanArchitectureTest.Data.csproj": {
+              "projectPath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Data\\CleanArchitectureTest.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
