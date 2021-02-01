@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RJZ0sMzlJzchnA2OjDPT+Yo8AVdP/SkglCSNptn5FHneqfhi8lvFlhI4HozDJ1updeIyuxnzxYj4WHrxs8kFxg==",
+  "dgSpecHash": "t2g89cl/XebbQp4Vt7Y3B4kBmm9M9fL0zm7+UVjGVyETylOT3n4va1kBzB7v3Ty7FnXMLE5HnYHYLwv2GuxOSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\a.leruth\\Desktop\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Core\\CleanArchitectureTest.Core.csproj",
+  "projectFilePath": "C:\\Sources\\GitHub\\HispanicMojitos\\LearningEFCore\\CleanArchitectureTest\\CleanArchitectureTest.Core\\CleanArchitectureTest.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

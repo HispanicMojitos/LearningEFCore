@@ -16,10 +16,12 @@ namespace CleanArchitectureTest.Data
     public interface IStudentRepository
     {
         IEnumerable<Student> GetStudents();
+
         Student GetStudentById(int studentId);
         void InsertStudent(Student student);
         void DeleteStudent(int studentId);
         void UpdateStudent(Student student);
+
         void Save();
     }
 }

@@ -1,0 +1,17 @@
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.deps.json
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.runtimeconfig.json
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.runtimeconfig.dev.json
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.dll
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.pdb
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Core.dll
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.dll
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Core.pdb
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.pdb
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.csprojAssemblyReference.cache
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.AssemblyInfoInputs.cache
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.AssemblyInfo.cs
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.csproj.CoreCompileInputs.cache
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.csproj.CopyComplete
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.dll
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.pdb
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Andews.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.Providers.Sql.genruntimeconfig.cache

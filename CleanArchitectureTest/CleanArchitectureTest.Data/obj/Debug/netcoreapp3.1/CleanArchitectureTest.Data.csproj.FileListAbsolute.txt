@@ -10,3 +10,15 @@ C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\CleanArchitecture
 C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.csproj.CopyComplete
 C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.dll
 C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.pdb
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.deps.json
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.dll
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Data.pdb
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Core.dll
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\bin\Debug\netcoreapp3.1\CleanArchitectureTest.Core.pdb
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.csprojAssemblyReference.cache
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.AssemblyInfoInputs.cache
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.AssemblyInfo.cs
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.csproj.CoreCompileInputs.cache
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.csproj.CopyComplete
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.dll
+C:\Sources\GitHub\HispanicMojitos\LearningEFCore\CleanArchitectureTest\CleanArchitectureTest.Data\obj\Debug\netcoreapp3.1\CleanArchitectureTest.Data.pdb
