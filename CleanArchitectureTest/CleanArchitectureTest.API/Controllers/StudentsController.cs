@@ -1,56 +1,66 @@
-﻿using CleanArchitectureTest.Business.Interfaces;
-using CleanArchitectureTest.Business.Services;
-using CleanArchitectureTest.Business.ViewModels;
-using CleanArchitectureTest.Core.Models;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace CleanArchitectureTest.API.Controllers
 {
-    [Route("api/[controller]")]
+    using System.Collections.Generic;
+
+    using AutoMapper;
+
+    using CleanArchitectureTest.API.ViewModels;
+    using CleanArchitectureTest.Business.Interfaces;
+    using CleanArchitectureTest.Core.Models;
+
+    using Microsoft.AspNetCore.Mvc;
+
+    [Route("api/[controller]/[action]")]
     [ApiController]
     [Produces("application/json")]
     public class StudentsController : Controller
     {
 
         private readonly IStudentService studentService;
-        public StudentsController(IStudentService service)
+        private readonly IMapper mapper;
+
+        public StudentsController(IStudentService service, IMapper mapper)
         {
             this.studentService = service;
+            this.mapper = mapper;
         }
         // GET: api/<StudentsController>
         [HttpGet]
-        public StudentViewModel Get()
+        public IEnumerable<StudentViewModel> GetAll()
         {
-            return studentService.GetStudents();
+            return this.mapper.Map<IEnumerable<StudentViewModel>>(studentService.GetStudents());
+        }
+
+        [HttpGet]
+        public IEnumerable<StudentViewModelListItem> GetAllListItems()
+        {
+            return this.mapper.Map<IEnumerable<StudentViewModelListItem>>(studentService.GetStudents());
         }
 
         // GET api/<StudentsController>/5
         [HttpGet("{id}")]
-        public Student Get(int id)
+        public StudentViewModel GetById(int id)
         {
-            return studentService.GetStudentById(id);
+            return this.mapper.Map<StudentViewModel>(studentService.GetStudentById(id));
         }
 
         // POST api/<StudentsController>
         [HttpPost]
-        public void Post(Student student)
+        public void Create(StudentViewModelCreate studentCreate)
         {
+            var student = this.mapper.Map<Student>(studentCreate);
             studentService.InsertStudent(student);
-            studentService.Save();
         }
 
         // PUT api/<StudentsController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, Student student)
+        [HttpPut]
+        public void Update(StudentUpdate studentUpdate)
         {
-            studentService.UpdateStudent(student);
-            studentService.Save();
+            studentService.UpdateStudent(studentUpdate);
         }
 
         // DELETE api/<StudentsController>/5
@@ -58,7 +68,6 @@ namespace CleanArchitectureTest.API.Controllers
         public void Delete(int id)
         {
             studentService.DeleteStudent(id);
-            studentService.Save();
         }
     }
 }

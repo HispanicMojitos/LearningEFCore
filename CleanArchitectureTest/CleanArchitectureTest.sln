@@ -21,6 +21,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureTest.Core"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitectureTest.Data", "CleanArchitectureTest.Data\CleanArchitectureTest.Data.csproj", "{345551CE-0270-4778-8232-7618192F85CC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{318FA4B5-6E26-4E58-BD18-C273F462B9FF}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "StudentDB", "StudentDB\StudentDB.sqlproj", "{95AEB6A0-FD76-4852-B5C2-3073AC9F4027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +51,12 @@ Global
 		{345551CE-0270-4778-8232-7618192F85CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{345551CE-0270-4778-8232-7618192F85CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{345551CE-0270-4778-8232-7618192F85CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95AEB6A0-FD76-4852-B5C2-3073AC9F4027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AEB6A0-FD76-4852-B5C2-3073AC9F4027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AEB6A0-FD76-4852-B5C2-3073AC9F4027}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{95AEB6A0-FD76-4852-B5C2-3073AC9F4027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AEB6A0-FD76-4852-B5C2-3073AC9F4027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95AEB6A0-FD76-4852-B5C2-3073AC9F4027}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +67,7 @@ Global
 		{BBA45529-DD2A-4280-9415-63266C04366C} = {6E2999B6-EE9B-419B-9256-E6ECD56F1AF8}
 		{E60A2A2B-5B92-411C-80B8-BA15931BB4C4} = {064C76F8-90B4-4E3F-AED9-FDEB2B73DCC2}
 		{345551CE-0270-4778-8232-7618192F85CC} = {6E2999B6-EE9B-419B-9256-E6ECD56F1AF8}
+		{95AEB6A0-FD76-4852-B5C2-3073AC9F4027} = {318FA4B5-6E26-4E58-BD18-C273F462B9FF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EAE0A884-BD6F-4406-9F9D-0A6A823C43DF}

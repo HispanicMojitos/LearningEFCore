@@ -2,23 +2,19 @@
 // Copyright (c) Wavenet. All rights reserved.
 // </copyright>
 
-using CleanArchitectureTest.Business.Interfaces;
-using CleanArchitectureTest.Business.ViewModels;
-using CleanArchitectureTest.Core.Models;
-using CleanArchitectureTest.Data;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Text;
-
 namespace CleanArchitectureTest.Business.Services
 {
+    using System.Collections.Generic;
+
+    using CleanArchitectureTest.Business.Interfaces;
+    using CleanArchitectureTest.Core.Models;
+    using CleanArchitectureTest.Data;
+
     /// <summary>
     /// Contains the definition of an object of type <see cref="StudentService"/>.
     /// </summary>
     public class StudentService : IStudentService
     {
-
         public IStudentRepository studentRepository;
         public StudentService(IStudentRepository studentRepository)
         {
@@ -34,27 +30,22 @@ namespace CleanArchitectureTest.Business.Services
             return studentRepository.GetStudentById(studentId);
         }
 
-        public StudentViewModel GetStudents()
+        public IEnumerable<Student> GetStudents()
         {
-            return new StudentViewModel()
-            {
-                Students = studentRepository.GetStudents()
-            };
+            return studentRepository.GetStudents();
         }
 
         public void InsertStudent(Student student)
         {
-            studentRepository.InsertStudent(student);
+            if (student.Description != "Test")
+            {
+                studentRepository.InsertStudent(student);
+            }
         }
 
-        public void Save()
+        public void UpdateStudent(StudentUpdate studentUpdate)
         {
-            studentRepository.Save();
-        }
-
-        public void UpdateStudent(Student student)
-        {
-            studentRepository.UpdateStudent(student);
+            studentRepository.UpdateStudent(studentUpdate);
         }
     }
 }

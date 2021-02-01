@@ -2,12 +2,9 @@
 // Copyright (c) Wavenet. All rights reserved.
 // </copyright>
 
-using CleanArchitectureTest.Business.ViewModels;
-using CleanArchitectureTest.Core.Models;
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Text;
+
+using CleanArchitectureTest.Core.Models;
 
 namespace CleanArchitectureTest.Business.Interfaces
 {
@@ -16,11 +13,14 @@ namespace CleanArchitectureTest.Business.Interfaces
     /// </summary>
     public interface IStudentService
     {
-        StudentViewModel GetStudents();
+        IEnumerable<Student> GetStudents();
+
         Student GetStudentById(int studentId);
+
         void InsertStudent(Student student);
+
         void DeleteStudent(int studentId);
-        void UpdateStudent(Student student);
-        void Save();
+
+        void UpdateStudent(StudentUpdate studentUpdate);
     }
 }

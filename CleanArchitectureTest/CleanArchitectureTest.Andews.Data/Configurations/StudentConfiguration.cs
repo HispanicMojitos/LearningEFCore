@@ -2,11 +2,9 @@
 // Copyright (c) Wavenet. All rights reserved.
 // </copyright>
 
-using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.EntityFrameworkCore;
 using CleanArchitectureTest.Core.Models;
+
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CleanArchitectureTest.Data.Sql.Configurations
@@ -18,21 +16,11 @@ namespace CleanArchitectureTest.Data.Sql.Configurations
     {
         public void Configure(EntityTypeBuilder<Student> builder)
         {
-            builder.HasKey(s => s.StudentID);
+            builder.HasKey(prop => prop.Id);
 
-            builder.Property(s => s.FirstName)
-                .HasColumnName("FirstName")
-                .IsRequired();
+            builder.Ignore(prop => prop.IsOld);
 
-            builder.Property(s => s.LastName)
-                .HasColumnName("LastName")
-                .IsRequired();
-
-            builder.Property(s => s.BirthDate)
-                .HasColumnName("BirthDate")
-                .HasColumnType("Date")
-                .IsRequired();
-
+            builder.ToTable("Students");
         }
     }
 }
