@@ -4,6 +4,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace CleanArchitectureTest.Core.Models
@@ -13,9 +14,13 @@ namespace CleanArchitectureTest.Core.Models
     /// </summary>
     public class Student
     {
+        [Key]
         public int StudentID { get; set; }
+        [Required]
         public string FirstName { get; set; }
+        [Required]
         public string LastName { get; set; }
+        [Required]
         public DateTime BirthDate { get; set; }
         public string Description { get; set; }
     }
