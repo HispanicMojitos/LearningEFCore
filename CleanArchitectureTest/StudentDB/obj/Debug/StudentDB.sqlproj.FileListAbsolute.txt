@@ -1,0 +1,10 @@
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\bin\Debug\StudentDB.dacpac
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\bin\Debug\StudentDB.dll
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\bin\Debug\StudentDB.pdb
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\obj\Debug\StudentDB.sqlprojAssemblyReference.cache
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\obj\Debug\Model.xml
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\obj\Debug\refactor.xml
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\obj\Debug\postdeploy.sql
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\obj\Debug\predeploy.sql
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\obj\Debug\StudentDB.dll
+C:\Users\a.leruth\Desktop\LearningEFCore\CleanArchitectureTest\StudentDB\obj\Debug\StudentDB.pdb

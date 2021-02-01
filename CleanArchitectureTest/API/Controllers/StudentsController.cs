@@ -47,7 +47,7 @@ namespace CleanArchitectureTest.API.Controllers
 
         // PUT api/<StudentsController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Student student)
+        public void Put(int id, Student student)
         {
             studentService.UpdateStudent(student);
             studentService.Save();
