@@ -3,6 +3,7 @@
 // </copyright>
 
 using System;
+using System.Collections.Generic;
 
 namespace CleanArchitectureTest.Core.Models
 {
@@ -16,5 +17,7 @@ namespace CleanArchitectureTest.Core.Models
         public DateTime BirthDate { get; set; }
 
         public string Description { get; set; }
+
+        public IList<StudentCourse> StudentCourses { get; set; }
     }
 }

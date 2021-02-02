@@ -32,7 +32,8 @@ namespace CleanArchitectureTest.API.Controllers
         [HttpGet]
         public IEnumerable<StudentViewModel> GetAll()
         {
-            return this.mapper.Map<IEnumerable<StudentViewModel>>(studentService.GetStudents());
+            var students = studentService.GetStudents();
+            return this.mapper.Map<IEnumerable<StudentViewModel>>(students);
         }
 
         [HttpGet]

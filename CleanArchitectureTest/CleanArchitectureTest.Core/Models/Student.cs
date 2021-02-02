@@ -5,6 +5,7 @@
 namespace CleanArchitectureTest.Core.Models
 {
     using System;
+    using System.Collections.Generic;
 
     /// <summary>
     /// Contains the definition of an object of type <see cref="Student"/>.
@@ -22,5 +23,7 @@ namespace CleanArchitectureTest.Core.Models
         public string Description { get; set; } = string.Empty;
 
         public bool IsOld => this.BirthDate < new DateTime(1985, 01, 01);
+
+        public IList<StudentCourse> StudentCourses { get; set; }
     }
 }

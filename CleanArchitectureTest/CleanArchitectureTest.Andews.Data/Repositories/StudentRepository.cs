@@ -5,7 +5,7 @@
 namespace CleanArchitectureTest.Data.Sql.Repositories
 {
     using System.Collections.Generic;
-
+    using System.Linq;
     using AutoMapper;
 
     using CleanArchitectureTest.Core.Models;
@@ -18,10 +18,10 @@ namespace CleanArchitectureTest.Data.Sql.Repositories
     /// </summary>
     public class StudentRepository : IStudentRepository
     {
-        private StudentContext context;
+        private SchoolContext context;
         private readonly IMapper mapper;
 
-        public StudentRepository(StudentContext context, IMapper mapper)
+        public StudentRepository(SchoolContext context, IMapper mapper)
         {
             this.context = context;
             this.mapper = mapper;
@@ -41,7 +41,7 @@ namespace CleanArchitectureTest.Data.Sql.Repositories
 
         public IEnumerable<Student> GetStudents()
         {
-            return context.Students;
+            return context.Students.ToList();
         }
 
         public void InsertStudent(Student student)

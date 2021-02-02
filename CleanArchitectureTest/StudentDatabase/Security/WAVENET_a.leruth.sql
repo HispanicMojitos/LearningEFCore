@@ -1,3 +1,0 @@
-﻿CREATE LOGIN [WAVENET\a.leruth]
-    FROM WINDOWS WITH DEFAULT_LANGUAGE = [us_english];
-

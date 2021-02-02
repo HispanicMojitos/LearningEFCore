@@ -15,11 +15,13 @@ namespace CleanArchitectureTest.Business.Services
     /// </summary>
     public class StudentService : IStudentService
     {
-        public IStudentRepository studentRepository;
+        private IStudentRepository studentRepository;
+
         public StudentService(IStudentRepository studentRepository)
         {
             this.studentRepository = studentRepository;
         }
+
         public void DeleteStudent(int studentId)
         {
             studentRepository.DeleteStudent(studentId);
